@@ -5,7 +5,7 @@ from openai import OpenAI
 from db_utils import create_table, log_token_usage
 
 # Initialize DeepSeek client
-client = OpenAI(api_key="sk-1a87e1e386e4478395b227b17a8ebdc9", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="", base_url="https://api.deepseek.com")
 
 # Create the SQLite table if it doesn't exist
 create_table()
